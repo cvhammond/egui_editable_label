@@ -1,0 +1,23 @@
+[package]
+name = "egui_editable_label"
+version = "0.1.0"
+edition = "2021"
+description = "A simple editable label widget for the egui GUI library."
+categories = ["gui", "game-development"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cvhammond/egui_editable_label"
+readme = "README.md"
+keywords = ["egui", "gui", "widget", "editable", "label"]
+exclude = ["examples", "examples/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.27"
+
+[dev-dependencies]
+eframe = "0.27"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
